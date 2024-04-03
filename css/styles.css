@@ -644,6 +644,7 @@ button {
 }
 .button-sbs-icon {
   fill: #fff;
+  margin-left: 16px;
 }
 
 .sbs-lebl {
