@@ -585,15 +585,18 @@ button {
   color: #fff;
   font-size: 16px;
   font-weight: 500;
-  line-height: 1.2;
-  letter-spacing: 0.32px;
-  padding-bottom: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  margin-bottom: 16px;
 }
 .sbs-form {
   display: flex;
   gap: 24px;
 }
 .sbs-input {
+  font-size: 12px;
+  line-height: 2;
+  letter-spacing: 0.04em;
   color: #fff;
   width: 264px;
   height: 40px;
