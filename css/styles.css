@@ -59,7 +59,7 @@ button {
 
 .container {
   width: 1158px;
-  padding: 0 auto;
+  padding: 0 15px;
   margin: 0 auto;
 }
 
@@ -608,8 +608,9 @@ button {
 }
 
 .footer-subscribe {
-  width: 453px;
-height: 80px;
+  min-width: 453px;
+  height: 80px;
+  
 }
 
 .subscribe-text {
@@ -637,10 +638,13 @@ height: 80px;
 }
 .subscribe-input::placeholder{
   color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .button-subscribe{
- min-width: 160px;
+ min-width: 164px;
  color: #FFF;
  font-size: 16px;
  font-weight: 500;
@@ -655,6 +659,10 @@ height: 80px;
  background: #4D5AE5;
 }
 
+.button-subscribe-icon{
+  fill: white;
+  position: absolute;
+}
 /* #endregion footer */
 
 /* #region modal */
@@ -689,7 +697,7 @@ height: 80px;
 }
 
 .modal-btn {
-  position: absolute;
+  display: block;
   top: 24px;
   right: 24px;
   padding: 0;
